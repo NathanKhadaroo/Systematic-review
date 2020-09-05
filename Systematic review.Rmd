@@ -1,0 +1,245 @@
+---
+title: "Systematic review preparation"
+author: "Nathan Khadaroo-McCheyne"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Preparation to do list:
+
+- Look at some protocols
+
+- Choose a protocol
+
+- Look at what software could be useful ([litsearchr](https://elizagrames.github.io/litsearchr/litsearchr_vignette_v041.html)?)
+
+- Do some initial scoping
+
+- Pre-register the protocol
+
+
+
+## Exploring protocols:
+
+#### 1) Prisma
+
+The most used and most widly praised protocol, it doesn't seem adapted for non interventional research though.
+
+
+#### 2) NIRO
+
+Like Prisma, this isn't intended for method reviews. There is a lot to like here though. Especially regarding transparency and openness.
+
+I think this should be the basis of the protocol which I will then adapt for a methods review.
+
+#### 3) Other?
+
+One interesting paper is [Detecting, quantifying and adjusting for publication bias in meta-analyses: protocol of a systematic review on methods](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/2046-4053-2-60) by Mueller, et al (2013).
+
+Their data collection sheet (appendix 1) could be something I draw from a lot when writing the protocol.
+
+
+# Bibliography:
+
+[Moher, D., Liberati, A., Tetzlaff, J., & Altman, D. G. (2010). Preferred reporting items for systematic reviews and meta-analyses: the PRISMA statement. Int J Surg, 8(5), 336-341.](https://chiro.org/LINKS/ABSTRACTS/Preferred_Reporting_Items.shtml)
+
+[Mueller, K. F., Meerpohl, J. J., Briel, M., Antes, G., von Elm, E., Lang, B., ... & Bassler, D. (2013). Detecting, quantifying and adjusting for publication bias in meta-analyses: protocol of a systematic review on methods. Systematic reviews, 2(1), 1-4.](https://systematicreviewsjournal.biomedcentral.com/articles/10.1186/2046-4053-2-60)
+
+[Pickering, J.S., Topor, M., et al (2020). Non-Interventional, Reproducible, and Open (NIRO) Systematic Review Guidelines v0.1](https://osf.io/c9wer/)
+
+
+
+# Appendix:
+
+### Appendix 1: Full data extraction sheet from Mueller, et al (2013)
+
+**Baseline Data:**
+
+**Article Number:** 
+
+**Author (year):**
+
+**Language:**
+
+**Title:** 
+
+**Journal:**
+
+**Type of report:**
+
+- Abstract
+- Commentary / Editorial
+- Guidelines / HTA – report
+- Methodological study
+- Narrative Review
+- Systematic Review
+- Other: __________________________
+
+**Funding Source:**
+
+- Governmental / public
+- Charity / private not for profit
+- Industry / private for profit
+- Not funded / only in house source
+- Not reported
+- Reported, but type of funding unclear
+
+**Study objectives:**
+
+- New method			 			
+- Established method 	
+- Evidence of usefulness/limitations
+- Extent of publication bias
+- Comparison of various methods
+
+**Underlying assumptions:**
+
+- True treatment effect is zero
+- True treatment effect is small or moderate but not zero
+- True treatment effect is big
+- Not described
+- Other: ________________________________________________
+
+**Method:**
+
+Name of the method, as proposed by the author: _______________________________
+
+Short description of the method:
+
+**Purpose of the method:** 		
+
+- Detecting bias 						
+- Quantifying bias		
+- Adjusting / Reducing bias						
+- Preventing bias 		
+- Other: _______________________
+
+**Classification of method, as proposed by the author:**
+
+- Study registration 						
+- Literature search
+- Funnel plot 			
+  - Tests for tunnel plot asymmetry	
+  - Methods to adjust for publication bias based on funnel plots (trim and fill)
+- Selection models						
+- Selection models with data augmentation
+- Sensitivity analyses based on selection models 		
+- New statistical approaches
+- Updating reviews 						
+- Publication process
+- Research ethics/policy 					
+- Confirmatory studies
+- Other: _____________
+
+**If no assignment by author made, method could be classified as:**
+
+- Study registration 						
+- Literature search
+- Funnel plot 			
+  - Tests for tunnel plot asymmetry	
+  - Methods to adjust for publication bias based on funnel plots (trim and fill)
+- Selection models						
+- Selection models with data augmentation
+- Sensitivity analyses based on selection models 		
+- New statistical approaches
+- Updating reviews 						
+- Publication process
+- Research ethics/policy 					
+- Confirmatory studies
+- Classification not possible
+- Other: _____________
+
+**On what stage of the literature review process the method is relevant:**
+
+- Before literature review 		
+- In literature review 		
+- After literature review
+
+**What form of bias the method pays attention to:**
+
+- Publication bias 						
+- Grey literature bias
+- Language bias 						
+- Reporting bias
+- Abstract bias 						
+- Time delay bias
+- Database index bias					
+- Citation bias
+- Duplicate bias 						
+- Media attention bias
+- Reporting bias						
+- Other: ________________
+
+**Any definition given for publication bias:**
+
+**Resources required to use the method:**
+	
+- Special software
+- Costs, how much:
+- Statistical expert
+- Time, how much:
+- Other: _______________________________
+- not described
+
+**Pros and Cons of the method, as described by the author:**
+
+- Not described by the author
+
+- Pros:
+
+
+- Cons:
+
+
+**Compared to what other method:**
+
+- Study registration 						
+- Literature search
+- Funnel plot 		
+	- Tests for tunnel plot asymmetry	
+  - Methods to adjust for publication bias based on funnel plots (trim and fill)
+- Selection models						
+- Selection models with data augmentation
+- Sensitivity analyses based on selection models 		
+- New statistical approaches
+- Updating reviews 						
+- Publication process	
+- Research ethics/policy 					
+- Confirmatory studies
+- Other: _____________
+- None
+
+**Best group to use the method for, as described by the author:**
+
+- Not described
+- Large number of studies (>100)
+- No significant heterogeneity in the studies included
+- Only for continuous outcomes
+- Only for dichotomous outcomes
+- Other: __________________________________
+
+**Method has been applied in a meta-analysis / systematic review of real world data:**
+
+- Not reported
+- Yes, with success
+- Yes, without success
+- Yes, with no report of the result
+- If Yes in which data – set
+			- clinical
+			- not-clinical
+- Yes, in an empirical dataset for which one can be reasonably confident that all studies conducted have been included (e.g. datasets from trial registries from medical regulatory authorities such as FDA or EMA). 
+- No
+
+**Reviewer’s commentary (e.g. on study’s validity, scientific rigour, method’s usefulness and limitations, any empirical evidence provided):**
+
+
+
+
+
+
+
